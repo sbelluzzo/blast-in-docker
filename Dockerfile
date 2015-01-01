@@ -13,7 +13,7 @@ RUN mkdir /opt/blast \
       && curl ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.30/ncbi-blast-2.2.30+-x64-linux.tar.gz \
       | tar -zxC /opt/blast --strip-components=1
 
-RUN useradd -r blast
-USER blast
+RUN useradd -r galaxy
+USER galaxy
 
 ENV PATH /opt/blast/bin:$PATH
