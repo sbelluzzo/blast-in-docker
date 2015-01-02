@@ -6,7 +6,7 @@ MAINTAINER Simon Belluzzo <simon@belluzzo.id.au>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		curl \
-		python-minimal=2.7.3-6+deb7u2 \
+		python-minimal=2.7.3-4+deb7u1 \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /opt/blast \
