@@ -1,4 +1,5 @@
-blast-in-docker
+ncbi-blast-docker
 ===============
 
-Dockerfile for NCBI BLAST binaries in a Docker image for use with the Galaxy platform
+NCBI BLAST binaries in a Docker image, particularly for use with the Galaxy
+platform.
